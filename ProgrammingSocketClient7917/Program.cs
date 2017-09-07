@@ -10,6 +10,13 @@ namespace ProgrammingSocketClient7917
     {
         static void Main(string[] args)
         {
+            Program p = new Program();
+            p.Run();
+        }
+
+        private void Run()
+        {
+            Client server = new Client();
         }
     }
 }
